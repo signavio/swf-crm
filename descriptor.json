@@ -50,6 +50,12 @@
             "name" : "date",
             "kind" : "datetime"
           }
+        }, {
+          "key" : "cusomterForYears",
+          "name": "Number of years as customer",
+          "type": {
+            "name": "number"
+          }
         }
       ],
       "optionsAvailable" : true,
