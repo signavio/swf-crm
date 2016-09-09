@@ -31,7 +31,7 @@ def get_options(kind):
     if query:
         options = filter(lambda option: query in option["name"].lower(), options)
 
-    return json.dumps(options)
+    return json.dumps(sorted(options, key= lambda option: option["name"].lower()))
 
 @app.route("/<kind>/<id>")
 def get_entry(kind, id):
