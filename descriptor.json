@@ -5,7 +5,7 @@
   "typeDescriptors": [
     {
       "key" : "customer",
-      "name" : "Customer",
+      "name" : "Kunde",
       "fields" : [
         {
           "key" : "fullName",
@@ -21,38 +21,22 @@
           }
         }, {
           "key" : "subscriptionType",
-          "name" : "Type of the subscription",
+          "name" : "Vertragstyp",
           "type" : {
             "name" : "choice",
             "options" : [
-                    {
-                            "id" : "bronze",
-                            "name" : "Bronze"
-                    }, {
-                            "id" : "silver",
-                            "name" : "Silver"
-                    }, {
-                            "id" : "gold",
-                            "name" : "Gold"
-                    }
+              {
+                "id" : "0",
+                "name" : "Firmenvertrag"
+              }, {
+                "id" : "1",
+                "name" : "Privatkunde"
+              }
             ]
           }
         }, {
-          "key" : "discount",
-          "name" : "Discount",
-          "type" : {
-            "name" : "number"
-          }
-        }, {
-          "key" : "since",
-          "name" : "Registration date",
-          "type" : {
-            "name" : "date",
-            "kind" : "datetime"
-          }
-        }, {
           "key" : "cusomterForYears",
-          "name": "Number of years as customer",
+          "name": "Kundentreue in Jahren",
           "type": {
             "name": "number"
           }
