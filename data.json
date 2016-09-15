@@ -5,21 +5,44 @@
             "fullName": "Alice Allgood",
             "email": "alice@example.org",
             "subscriptionType": "1",
-            "cusomterForYears": 3
+            "cusomterForYears": 3,
+            "revenue": {
+                "amount": 200,
+                "currency": "EUR"
+            }
         },
         "4d5e6f": {
             "id": "4d5e6f",
             "fullName": "ACME GmbH",
             "email": "ben@acme.com",
             "subscriptionType": "0",
-            "cusomterForYears": 7
+            "cusomterForYears": 7,
+            "revenue": {
+                "amount": 5032,
+                "currency": "EUR"
+            }
         },
         "7g8h9i": {
             "id": "7g8h9i",
             "fullName": "Charlie Chester",
             "email": "charlie@example.org",
             "subscriptionType": "1",
-            "cusomterForYears": 6
+            "cusomterForYears": 6,
+            "revenue": {
+                "amount": 534,
+                "currency": "EUR"
+            }
+        },
+        "7g8h7t": {
+            "id": "7g8h9i",
+            "fullName": "Max Mustermann",
+            "email": "max@mustermann.org",
+            "subscriptionType": "0",
+            "cusomterForYears": 2,
+            "revenue": {
+                "amount": 20000,
+                "currency": "EUR"
+            }
         }
     }
 }

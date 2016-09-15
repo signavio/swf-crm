@@ -40,6 +40,12 @@
           "type": {
             "name": "number"
           }
+        }, {
+          "key": "revenue",
+          "name": "Erbrachter Umsatz",
+          "type": {
+            "name": "money"
+          }
         }
       ],
       "optionsAvailable" : true,
