@@ -50,6 +50,54 @@
       ],
       "optionsAvailable" : true,
       "fetchOneAvailable" : true
+    },
+    {
+      "key" : "customer-en",
+      "name" : "Customer",
+      "fields" : [
+        {
+          "key" : "fullName",
+          "name" : "Name",
+          "type" : {
+            "name" : "text"
+          }
+        }, {
+          "key" : "email",
+          "name" : "Email",
+          "type" : {
+            "name" : "emailAddress"
+          }
+        }, {
+          "key" : "subscriptionType",
+          "name" : "Subscription type",
+          "type" : {
+            "name" : "choice",
+            "options" : [
+              {
+                "id" : "0",
+                "name" : "Company contract"
+              }, {
+                "id" : "1",
+                "name" : "Private contract"
+              }
+            ]
+          }
+        }, {
+          "key" : "cusomterForYears",
+          "name": "Customer loyalty in years",
+          "type": {
+            "name": "number"
+          }
+        }, {
+          "key": "revenue",
+          "name": "Revenue",
+          "type": {
+            "name": "money"
+          }
+        }
+      ],
+      "optionsAvailable" : true,
+      "fetchOneAvailable" : true
     }
   ],
   "version": 1,
