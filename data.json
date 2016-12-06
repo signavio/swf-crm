@@ -3,7 +3,7 @@
         "1a2b3c": {
             "id": "1a2b3c",
             "fullName": "Alice Allgood",
-            "email": "alice@example.org",
+            "email": "demo@signavio.com",
             "subscriptionType": "1",
             "cusomterForYears": 3,
             "revenue": {
@@ -14,7 +14,7 @@
         "4d5e6f": {
             "id": "4d5e6f",
             "fullName": "ACME GmbH",
-            "email": "ben@acme.com",
+            "email": "demo@signavio.com",
             "subscriptionType": "0",
             "cusomterForYears": 7,
             "revenue": {
@@ -25,7 +25,7 @@
         "7g8h9i": {
             "id": "7g8h9i",
             "fullName": "Charlie Chester",
-            "email": "charlie@example.org",
+            "email": "demo@signavio.com",
             "subscriptionType": "1",
             "cusomterForYears": 6,
             "revenue": {
@@ -36,7 +36,7 @@
         "7g8h7t": {
             "id": "7g8h7t",
             "fullName": "Max Mustermann",
-            "email": "max@mustermann.org",
+            "email": "demo@signavio.com",
             "subscriptionType": "0",
             "cusomterForYears": 2,
             "revenue": {
@@ -49,7 +49,7 @@
         "1a2b3c": {
             "id": "1a2b3c",
             "fullName": "Alice Allgood",
-            "email": "alice@example.org",
+            "email": "demo@signavio.com",
             "subscriptionType": "1",
             "cusomterForYears": 3,
             "revenue": {
@@ -60,7 +60,7 @@
         "4d5e6f": {
             "id": "4d5e6f",
             "fullName": "ACME GmbH",
-            "email": "ben@acme.com",
+            "email": "demo@signavio.com",
             "subscriptionType": "0",
             "cusomterForYears": 7,
             "revenue": {
@@ -71,7 +71,7 @@
         "7g8h9i": {
             "id": "7g8h9i",
             "fullName": "Charlie Chester",
-            "email": "charlie@example.org",
+            "email": "demo@signavio.com",
             "subscriptionType": "1",
             "cusomterForYears": 6,
             "revenue": {
@@ -82,7 +82,7 @@
         "7g8h7t": {
             "id": "7g8h7t",
             "fullName": "Max Mustermann",
-            "email": "max@mustermann.org",
+            "email": "demo@signavio.com",
             "subscriptionType": "0",
             "cusomterForYears": 2,
             "revenue": {
