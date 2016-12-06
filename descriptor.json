@@ -75,10 +75,10 @@
             "options" : [
               {
                 "id" : "0",
-                "name" : "Company contract"
+                "name" : "Business"
               }, {
                 "id" : "1",
-                "name" : "Private contract"
+                "name" : "Private"
               }
             ]
           }
