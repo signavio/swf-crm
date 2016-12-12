@@ -35,7 +35,7 @@
             ]
           }
         }, {
-          "key" : "cusomterForYears",
+          "key" : "customerForYears",
           "name": "Kundentreue in Jahren",
           "type": {
             "name": "number"
@@ -83,7 +83,7 @@
             ]
           }
         }, {
-          "key" : "cusomterForYears",
+          "key" : "customerForYears",
           "name": "Customer loyalty in years",
           "type": {
             "name": "number"

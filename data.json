@@ -5,7 +5,7 @@
             "fullName": "Alice Allgood",
             "email": "demo@signavio.com",
             "subscriptionType": "1",
-            "cusomterForYears": 3,
+            "customerForYears": 3,
             "revenue": {
                 "amount": 200,
                 "currency": "EUR"
@@ -16,7 +16,7 @@
             "fullName": "ACME GmbH",
             "email": "demo@signavio.com",
             "subscriptionType": "0",
-            "cusomterForYears": 7,
+            "customerForYears": 7,
             "revenue": {
                 "amount": 5032,
                 "currency": "EUR"
@@ -27,7 +27,7 @@
             "fullName": "Charlie Chester",
             "email": "demo@signavio.com",
             "subscriptionType": "1",
-            "cusomterForYears": 6,
+            "customerForYears": 6,
             "revenue": {
                 "amount": 534,
                 "currency": "EUR"
@@ -38,7 +38,7 @@
             "fullName": "Max Mustermann",
             "email": "demo@signavio.com",
             "subscriptionType": "0",
-            "cusomterForYears": 2,
+            "customerForYears": 2,
             "revenue": {
                 "amount": 20000,
                 "currency": "EUR"
@@ -51,7 +51,7 @@
             "fullName": "Alice Allgood",
             "email": "demo@signavio.com",
             "subscriptionType": "1",
-            "cusomterForYears": 3,
+            "customerForYears": 3,
             "revenue": {
                 "amount": 200,
                 "currency": "EUR"
@@ -62,7 +62,7 @@
             "fullName": "ACME GmbH",
             "email": "demo@signavio.com",
             "subscriptionType": "0",
-            "cusomterForYears": 7,
+            "customerForYears": 7,
             "revenue": {
                 "amount": 5032,
                 "currency": "EUR"
@@ -73,7 +73,7 @@
             "fullName": "Charlie Chester",
             "email": "demo@signavio.com",
             "subscriptionType": "1",
-            "cusomterForYears": 6,
+            "customerForYears": 6,
             "revenue": {
                 "amount": 534,
                 "currency": "EUR"
@@ -84,7 +84,7 @@
             "fullName": "Max Mustermann",
             "email": "demo@signavio.com",
             "subscriptionType": "0",
-            "cusomterForYears": 2,
+            "customerForYears": 2,
             "revenue": {
                 "amount": 20000,
                 "currency": "EUR"
