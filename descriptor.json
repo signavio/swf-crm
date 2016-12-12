@@ -1,7 +1,7 @@
 {
   "key": "customers",
   "name": "Customers",
-  "description": "A database with all customers.",
+  "description": "An example of a customer database, based on static data for a few customers, with both English (Customer) and German (Kunde) collections.",
   "typeDescriptors": [
     {
       "key" : "customer",
