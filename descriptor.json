@@ -98,6 +98,27 @@
       ],
       "optionsAvailable" : true,
       "fetchOneAvailable" : true
+    },
+    {
+      "key" : "product",
+      "name" : "Produkt",
+      "fields" : [
+        {
+          "key" : "name",
+          "name" : "Name",
+          "type" : {
+            "name" : "text"
+          }
+        }, {
+          "key" : "price",
+          "name" : "Preis",
+          "type" : {
+            "name" : "money"
+          }
+        }
+      ],
+      "optionsAvailable" : true,
+      "fetchOneAvailable" : true
     }
   ],
   "version": 1,
