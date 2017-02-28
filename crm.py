@@ -23,8 +23,10 @@ def get_options(kind):
         abort(404)
 
         return
-
-    options = [ { "id": v["id"], "name": v["fullName"] } for (k, v) in data[kind].iteritems() ]
+    nameField = "fullName"
+    if kind == "product":
+        nameField = "name"
+    options = [ { "id": v["id"], "name": v[nameField] } for (k, v) in data[kind].iteritems() ]
 
     query = request.args.get("filter", "").lower()
 
