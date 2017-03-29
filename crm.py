@@ -35,6 +35,27 @@ def get_options(kind):
 
     return json.dumps(sorted(options, key= lambda option: option["name"].lower()))
 
+@app.route("/<kind>/options/<id>")
+def get_options(kind, id):
+    if kind not in data:
+        abort(404)
+
+        return
+
+    options = data[kind]
+
+    if id not in options:
+        abort(404)
+
+        return
+
+    entry = options[id]
+    nameField = "fullName"
+    if kind == "product":
+        nameField = "name"
+
+    return json.dumps({ "id": entry["id"], "name": entry[nameField] })
+
 @app.route("/<kind>/<id>")
 def get_entry(kind, id):
     if kind not in data:
