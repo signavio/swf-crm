@@ -36,7 +36,7 @@ def get_options(kind):
     return json.dumps(sorted(options, key= lambda option: option["name"].lower()))
 
 @app.route("/<kind>/options/<id>")
-def get_options(kind, id):
+def get_option(kind, id):
     if kind not in data:
         abort(404)
 
