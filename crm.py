@@ -24,14 +24,15 @@ def get_options(kind):
 
         return
     nameField = "fullName"
-    if kind == "product":
+
+    if kind == "product" or kind == "company":
         nameField = "name"
-    options = [ { "id": v["id"], "name": v[nameField] } for (k, v) in data[kind].iteritems() ]
+    options = [ { "id": v["id"], "name": v[nameField], "code": v["code"] } for (k, v) in data[kind].iteritems() ]
 
     query = request.args.get("filter", "").lower()
 
     if query:
-        options = filter(lambda option: query in option["name"].lower(), options)
+        options = filter(lambda option: query in option["name"].lower() or query in option["code"], options)
 
     return json.dumps(sorted(options, key= lambda option: option["name"].lower()))
 
@@ -51,7 +52,8 @@ def get_option(kind, id):
 
     entry = options[id]
     nameField = "fullName"
-    if kind == "product":
+
+    if kind == "product" or kind == "company":
         nameField = "name"
 
     return json.dumps({ "id": entry["id"], "name": entry[nameField] })

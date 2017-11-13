@@ -1,46 +1,52 @@
 {
   "key": "customers",
   "name": "Customers",
-  "description": "An example of a customer database, based on static data for a few customers, with both English (Customer) and German (Kunde) collections.",
+  "description":
+    "An example of a customer database, based on static data for a few customers, with both English (Customer) and German (Kunde) collections.",
   "typeDescriptors": [
     {
-      "key" : "customer",
-      "name" : "Kunde",
-      "fields" : [
+      "key": "customer",
+      "name": "Kunde",
+      "fields": [
         {
-          "key" : "fullName",
-          "name" : "Name",
-          "type" : {
-            "name" : "text"
+          "key": "fullName",
+          "name": "Name",
+          "type": {
+            "name": "text"
           }
-        }, {
-          "key" : "email",
-          "name" : "Email",
-          "type" : {
-            "name" : "emailAddress"
+        },
+        {
+          "key": "email",
+          "name": "Email",
+          "type": {
+            "name": "emailAddress"
           }
-        }, {
-          "key" : "subscriptionType",
-          "name" : "Vertragstyp",
-          "type" : {
-            "name" : "choice",
-            "options" : [
+        },
+        {
+          "key": "subscriptionType",
+          "name": "Vertragstyp",
+          "type": {
+            "name": "choice",
+            "options": [
               {
-                "id" : "0",
-                "name" : "Firmenkunde"
-              }, {
-                "id" : "1",
-                "name" : "Privatkunde"
+                "id": "0",
+                "name": "Firmenkunde"
+              },
+              {
+                "id": "1",
+                "name": "Privatkunde"
               }
             ]
           }
-        }, {
-          "key" : "customerForYears",
+        },
+        {
+          "key": "customerForYears",
           "name": "Kundentreue in Jahren",
           "type": {
             "name": "number"
           }
-        }, {
+        },
+        {
           "key": "revenue",
           "name": "Erbrachter Umsatz",
           "type": {
@@ -48,47 +54,52 @@
           }
         }
       ],
-      "optionsAvailable" : true,
-      "fetchOneAvailable" : true
+      "optionsAvailable": true,
+      "fetchOneAvailable": true
     },
     {
-      "key" : "customer-en",
-      "name" : "Customer",
-      "fields" : [
+      "key": "customer-en",
+      "name": "Customer",
+      "fields": [
         {
-          "key" : "fullName",
-          "name" : "Name",
-          "type" : {
-            "name" : "text"
+          "key": "fullName",
+          "name": "Name",
+          "type": {
+            "name": "text"
           }
-        }, {
-          "key" : "email",
-          "name" : "Email",
-          "type" : {
-            "name" : "emailAddress"
+        },
+        {
+          "key": "email",
+          "name": "Email",
+          "type": {
+            "name": "emailAddress"
           }
-        }, {
-          "key" : "subscriptionType",
-          "name" : "Subscription type",
-          "type" : {
-            "name" : "choice",
-            "options" : [
+        },
+        {
+          "key": "subscriptionType",
+          "name": "Subscription type",
+          "type": {
+            "name": "choice",
+            "options": [
               {
-                "id" : "0",
-                "name" : "Business"
-              }, {
-                "id" : "1",
-                "name" : "Privat"
+                "id": "0",
+                "name": "Business"
+              },
+              {
+                "id": "1",
+                "name": "Privat"
               }
             ]
           }
-        }, {
-          "key" : "customerForYears",
+        },
+        {
+          "key": "customerForYears",
           "name": "Customer loyalty in years",
           "type": {
             "name": "number"
           }
-        }, {
+        },
+        {
           "key": "revenue",
           "name": "Revenue",
           "type": {
@@ -96,29 +107,59 @@
           }
         }
       ],
-      "optionsAvailable" : true,
-      "fetchOneAvailable" : true
+      "optionsAvailable": true,
+      "fetchOneAvailable": true
     },
     {
-      "key" : "product",
-      "name" : "Produkt",
-      "fields" : [
+      "key": "product",
+      "name": "Produkt",
+      "fields": [
         {
-          "key" : "name",
-          "name" : "Name",
-          "type" : {
-            "name" : "text"
+          "key": "name",
+          "name": "Name",
+          "type": {
+            "name": "text"
           }
-        }, {
-          "key" : "price",
-          "name" : "Preis",
-          "type" : {
-            "name" : "money"
+        },
+        {
+          "key": "price",
+          "name": "Preis",
+          "type": {
+            "name": "money"
           }
         }
       ],
-      "optionsAvailable" : true,
-      "fetchOneAvailable" : true
+      "optionsAvailable": true,
+      "fetchOneAvailable": true
+    },
+    {
+      "key": "company",
+      "name": "Company",
+      "fields": [
+        {
+          "key": "name",
+          "name": "Name",
+          "type": {
+            "name": "text"
+          }
+        },
+        {
+          "key": "code",
+          "name": "Code",
+          "type": {
+            "name": "text"
+          }
+        },
+        {
+          "key": "approvalUser",
+          "name": "Approval User",
+          "type": {
+            "name": "userId"
+          }
+        }
+      ],
+      "optionsAvailable": true,
+      "fetchOneAvailable": true
     }
   ],
   "version": 1,
