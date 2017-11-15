@@ -152,7 +152,21 @@
         },
         {
           "key": "approvalUser",
-          "name": "Approval User",
+          "name": "Approver",
+          "type": {
+            "name": "userId"
+          }
+        },
+        {
+          "key": "controllerUser",
+          "name": "Controller",
+          "type": {
+            "name": "userId"
+          }
+        },
+        {
+          "key": "supportUser",
+          "name": "Supporter",
           "type": {
             "name": "userId"
           }

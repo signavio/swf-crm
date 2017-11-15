@@ -138,13 +138,17 @@
       "id": "1100",
       "code": "1100",
       "name": "Sonova AG",
-      "approvalUser": "5911b586d1dfff3a17af9362"
+      "approvalUser": "5911b586d1dfff3a17af9362",
+      "controllerUser": "59132f0362f8a03e6bba5c97",
+      "supportUser": "5911b543d1dfff3a17af934d"
     },
     "1200": {
       "id": "1200",
       "code": "1200",
       "name": "Phonak Schweiz AG",
-      "approvalUser": "5911b543d1dfff3a17af934d"
+      "approvalUser": "5911b543d1dfff3a17af934d",
+      "controllerUser": "5911b586d1dfff3a17af9362",
+      "supportUser": "59132f0362f8a03e6bba5c97"
     }
   }
 }
