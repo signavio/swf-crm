@@ -17,17 +17,25 @@ with open("./data.json") as f:
 def get_descriptor():
     return json.dumps(descriptor)
 
+def merge(source, target):
+  result = source.copy()
+  result.update(target)
+
+  return result
+
 @app.route("/<kind>/options")
 def get_options(kind):
     if kind not in data:
         abort(404)
 
         return
-    nameField = "fullName"
 
-    if kind == "product" or kind == "company":
-        nameField = "name"
-    options = [ { "id": v["id"], "name": v[nameField], "code": v["code"] } for (k, v) in data[kind].iteritems() ]
+    nameField = "name"
+
+    if kind == "customer" or kind == "customer-en":
+        nameField = "fullName"
+
+    options = [ merge(v, { "name": v[nameField] }) for (k, v) in data[kind].iteritems() ]
 
     query = request.args.get("filter", "").lower()
 
@@ -51,12 +59,12 @@ def get_option(kind, id):
         return
 
     entry = options[id]
-    nameField = "fullName"
+    nameField = "name"
 
-    if kind == "product" or kind == "company":
-        nameField = "name"
+    if kind == "company" or kind == "company-en":
+        nameField = "fullName"
 
-    return json.dumps({ "id": entry["id"], "name": entry[nameField] })
+    return json.dumps(merge(entry, {  "name": entry[nameField] }))
 
 @app.route("/<kind>/<id>")
 def get_entry(kind, id):

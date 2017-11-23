@@ -133,6 +133,48 @@
       }
     }
   },
+  "product-reportable": {
+    "p001": {
+      "id": "p001",
+      "name": "A-Pad",
+      "price": {
+        "amount": 899,
+        "currency": "EUR"
+      }
+    },
+    "p002": {
+      "id": "p002",
+      "name": "A-Cam",
+      "price": {
+        "amount": 399,
+        "currency": "EUR"
+      }
+    },
+    "p003": {
+      "id": "p003",
+      "name": "Desktop Computer (ACME Edition)",
+      "price": {
+        "amount": 1299,
+        "currency": "EUR"
+      }
+    },
+    "p004": {
+      "id": "p004",
+      "name": "Smart TV",
+      "price": {
+        "amount": 2099,
+        "currency": "EUR"
+      }
+    },
+    "p005": {
+      "id": "p005",
+      "name": "A-Watch",
+      "price": {
+        "amount": 699,
+        "currency": "EUR"
+      }
+    }
+  },
   "company": {
     "1100": {
       "id": "1100",

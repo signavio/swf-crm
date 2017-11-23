@@ -133,6 +133,29 @@
       "fetchOneAvailable": true
     },
     {
+      "key": "product-reportable",
+      "name": "Produkt (Reportable)",
+      "recordType": "VALUE",
+      "fields": [
+        {
+          "key": "name",
+          "name": "Name",
+          "type": {
+            "name": "text"
+          }
+        },
+        {
+          "key": "price",
+          "name": "Preis",
+          "type": {
+            "name": "money"
+          }
+        }
+      ],
+      "optionsAvailable": true,
+      "fetchOneAvailable": true
+    },
+    {
       "key": "company",
       "name": "Company",
       "fields": [
