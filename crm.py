@@ -61,7 +61,7 @@ def get_option(kind, id):
     entry = options[id]
     nameField = "name"
 
-    if kind == "company" or kind == "company-en":
+    if kind == "customer" or kind == "customer-en":
         nameField = "fullName"
 
     return json.dumps(merge(entry, {  "name": entry[nameField] }))
