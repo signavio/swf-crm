@@ -2,7 +2,7 @@
   "key": "customers",
   "name": "Customers",
   "description":
-    "An example of a customer database, based on static data for a few customers, with both English (Customer) and German (Kunde) collections.",
+  "An example of a customer database, based on static data for a few customers, with both English (Customer) and German (Kunde) collections.",
   "typeDescriptors": [
     {
       "key": "customer",
@@ -197,6 +197,11 @@
       ],
       "optionsAvailable": true,
       "fetchOneAvailable": true
+    },
+    {
+      "key" : "companyStructure",
+      "name" : "Customer Company Structure",
+      "recordType" : "hierarchy"
     }
   ],
   "version": 1,
