@@ -37,7 +37,7 @@
       "id": "7g8h7t",
       "fullName": "Max Mustermann",
       "email": "demo@signavio.com",
-      "subscriptionType": "0",
+      "subscriptionType": "1",
       "customerForYears": 2,
       "revenue": {
         "amount": 20000,
@@ -83,7 +83,7 @@
       "id": "7g8h7t",
       "fullName": "Max Mustermann",
       "email": "demo@signavio.com",
-      "subscriptionType": "0",
+      "subscriptionType": "1",
       "customerForYears": 2,
       "revenue": {
         "amount": 20000,
