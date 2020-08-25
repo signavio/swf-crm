@@ -35,12 +35,12 @@ def get_options(kind):
     if kind == "customer" or kind == "customer-en":
         nameField = "fullName"
 
-    options = [ merge(v, { "name": v[nameField] }) for (k, v) in data[kind].iteritems() ]
+    options = [ merge(v, { "name": v[nameField] }) for (k, v) in iter(data[kind].items()) ]
 
     query = request.args.get("filter", "").lower()
 
     if query:
-        options = filter(lambda option: query in option["name"].lower() or query in option["code"], options)
+        options = filter(lambda option: query in option["name"].lower() or ("code" in option and query in option["code"]), options)
 
     return json.dumps(sorted(options, key= lambda option: option["name"].lower()))
 
